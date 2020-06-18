@@ -1,12 +1,12 @@
 {
-    "name": "poteto-dev/laravel-ui-stisla",
-    "description": "The laravel UI with Stisla Dashboard",
+    "name": "hid-dev/stisla-ui",
+    "description": "Laravel UI with Stisla Free Bootstrap 4 Admin Template ",
     "keywords": ["laravel", "ui", "stisla"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Poteto Dev",
-            "email": "tech@poteto.dev"
+            "name": "Faiz Hidayatulloh",
+            "email": "faiz14hiedayatoelloh@gmail.com"
         }
     ],
     "require": {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "PotetoDev\\LaravelUiStisla\\": "src/"
+            "HidDev\\LaravelUiStisla\\": "src/"
         }
     },
     "config": {
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PotetoDev\\LaravelUiStisla\\StislaServiceProvider"
+                "HidDev\\LaravelUiStisla\\StislaServiceProvider"
             ]
         }
     },

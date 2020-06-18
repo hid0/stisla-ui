@@ -1,6 +1,6 @@
 <?php
 
-namespace PotetoDev\LaravelUiStisla;
+namespace HidDev\LaravelUiStisla;
 
 use Illuminate\Filesystem\Filesystem;
 use Laravel\Ui\Presets\Preset;
@@ -22,9 +22,9 @@ class StislaPreset extends Preset
         $command->info('Updating Assets');
         static::updateAssets();
 
-        $command->info('Updating Resource JS');
+        $command->info('Updating Resource js');
         static::updateScripts();
-        $command->info('Updating Resource SASS');
+        $command->info('Updating Resource sass');
         static::updateStyles();
         $command->info('Updating Resource Layouts');
         static::updateLayoutViews();
@@ -43,7 +43,6 @@ class StislaPreset extends Preset
     protected static function updatePackageArray(array $packages)
     {
         return [
-            '@fortawesome/fontawesome-free' => '^5.10.2',
             'popper.js' => '^1.14',
             'moment' => '^2.24',
             'bootstrap' => '^4.3.1',
