@@ -19,7 +19,7 @@ class StislaServiceProvider extends ServiceProvider
 
             $command->info('Installing package.');
             exec('npm install && npm run production');
-            $command->info('Package installed successfull.');
+            $command->info('Package installed successfully.');
 
             $command->info('Stisla UI scaffolding installed successfully.');
         });

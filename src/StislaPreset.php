@@ -19,7 +19,7 @@ class StislaPreset extends Preset
     public static function install(UiCommand $command)
     {
         static::updatePackages();
-        $command->info('Updating Assets');
+        $command->info('Updating Assets folder');
         static::updateAssets();
 
         $command->info('Updating Resource js');
